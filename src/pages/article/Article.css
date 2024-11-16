@@ -1,0 +1,384 @@
+.article {
+}
+.article_content {
+  width: 850px;
+  margin: 0px auto;
+  margin-top: 50px;
+  /* background-color: aqua; */
+}
+.article_info_author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+.author_avatar {
+  order: 1;
+}
+.author_avatar > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.author_avatar > a > img {
+  width: 98px;
+  border-radius: 9px;
+}
+.btn_follow_author {
+  background-color: #4b4b4b;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 85px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.icon_follow_author {
+  margin-left: 5px;
+}
+.info_author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: -1px;
+  right: 100px;
+  margin-right: 9px;
+  line-height: 23px;
+}
+.name_author {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  order: -1;
+}
+
+.btn_follow_author > svg {
+  margin-left: 3px;
+}
+
+.info_author > span {
+  color: #4b4b4b;
+  font-size: 11.5px;
+  order: -1;
+}
+
+.article_content > .article_info_author > .info_author > .btn_follow_user {
+  margin: 3px 0px 0px 0px;
+  height: 28px;
+  width: 90px;
+}
+
+.article_body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.article_body > h1 {
+  text-align: right;
+}
+.cover_article {
+  width: 800px;
+  border-radius: 9px;
+}
+
+.article_body > p {
+  text-align: right;
+  color: #3f3f3f;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.footer_article {
+  margin: 50px 0px;
+}
+.tags_article {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 9px;
+  margin: 11px 0px;
+}
+.tag_article {
+  background-color: #f3f3f3;
+  color: #4b4b4b;
+  cursor: pointer;
+  padding: 9px;
+  transition: all 0.1s ease-in-out;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.tag_article:hover {
+  background-color: #ebebeb;
+}
+
+.article_actions {
+  display: flex;
+  margin: 35px 0px;
+}
+.article_actions_right {
+  width: 50%;
+  order: 1;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.btn_bookmark {
+  font-size: 25px;
+  color: #4b4b4b;
+  cursor: pointer;
+}
+.btn_message {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+.btn_message > span {
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-right: 7px;
+}
+.btn_message > svg {
+  font-size: 25px;
+  color: #4b4b4b;
+}
+.btn_like {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btn_like > span {
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-right: 7px;
+}
+.btn_like > svg {
+  font-size: 25px;
+  color: #4b4b4b;
+}
+.article_actions_left {
+  width: 50%;
+}
+
+.link_post {
+  border: 1px solid #4b4b4b;
+  width: 210px;
+  border-radius: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  color: #4b4b4b;
+}
+
+.article_chosen {
+  padding: 30px 0px;
+  border-top: 0.5px solid #b9b9b9;
+}
+
+.container_comment {
+  width: 100%;
+  padding: 30px 0px;
+  background-color: #f5f5f5;
+}
+
+.container_counter_view {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 60px;
+  top: 10px;
+}
+.container_counter_view > span {
+  color: #4b4b4b;
+  order: 1;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.counter_view {
+  color: #4b4b4b;
+  font-size: 23px;
+}
+
+.url_link_post {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* ------------- list comment  ---------------- */
+
+.list_comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+/* style bodt article */
+
+.body_article_page {
+  line-height: 1.6;
+  color: #333;
+  margin: 20px;
+  direction: rtl;
+}
+
+.body_article_page p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.body_article_page h1,
+.body_article_page h2,
+.body_article_page h3,
+.body_article_page h4,
+.body_article_page h5,
+.body_article_page h6 {
+  color: #333;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.body_article_page h1 {
+  font-size: 2.5em;
+}
+
+.body_article_page h2 {
+  font-size: 2em;
+}
+
+.body_article_page h3 {
+  font-size: 1.75em;
+}
+
+.body_article_page h4 {
+  font-size: 1.5em;
+}
+
+.body_article_page h5 {
+  font-size: 1.25em;
+}
+
+.body_article_page h6 {
+  font-size: 1em;
+}
+
+.body_article_page blockquote {
+  font-style: italic;
+  border-right: 4px solid #afafaf;
+  margin: 20px 0;
+  padding: 1px 18px 1px 11px;
+  color: #555;
+  direction: rtl;
+  background-color: #ececec;
+}
+
+.body_article_page a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.body_article_page a:hover {
+  text-decoration: underline;
+}
+
+/* استایل برای جداول */
+.body_article_page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.body_article_page table th,
+.body_article_page table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.body_article_page table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.body_article_page table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.body_article_page ul,
+.body_article_page ol {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.body_article_page li {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.body_article_page img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body_article_page pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  overflow-x: auto;
+}
+
+.body_article_page code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+@media (max-width: 450px) {
+  .article_content {
+    width: 100%;
+    padding: 10px;
+  }
+  .container_counter_view {
+    left: 10px;
+    top: 30px;
+  }
+  .cover_article {
+    width: 100%;
+  }
+  .body_article_page > blockquote,
+  .body_article_page p {
+    width: 100% !important;
+  }
+  .media {
+    margin: 0px;
+    width: 380px;
+  }
+  iframe {
+    width: 100% !important;
+  }
+  .table {
+    margin: 0px !important;
+  }
+}

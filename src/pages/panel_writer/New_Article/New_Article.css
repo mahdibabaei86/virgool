@@ -1,0 +1,106 @@
+.container_page_new_post {
+  padding: 11px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.container_editor {
+  width: 800px;
+  margin: auto;
+}
+
+.cover_editor {
+  width: 430px;
+  border-radius: 9px;
+  cursor: pointer;
+  height: 250px;
+  order: 1;
+}
+
+.btn_send_article {
+  background-color: #0e6aa6;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 110px;
+  border-radius: 5px;
+}
+
+.title_input_post {
+  outline: none;
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 11px;
+  direction: rtl;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+
+.header_page_new_post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 90px;
+}
+
+.action_new_post {
+  width: 365px;
+  background-color: rgb(248, 248, 248);
+  border: 1px solid #dadada;
+  padding: 21px;
+  border-radius: 5px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container_btns_action_new_post {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.btn_delete_post_action {
+  color: #fff;
+  background-color: #de0000;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_cancel_publish_post_action {
+  color: #fff;
+  background-color: #e6a90c;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.title_post_action {
+  text-align: right;
+}
+
+.category_post {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-size: 13px;
+  background-color: #f0f0f0;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}

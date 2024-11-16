@@ -1,0 +1,45 @@
+.container_page_home {
+  position: relative;
+}
+
+.body_posts {
+  display: flex;
+}
+
+.post_list_Data {
+  width: 70%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 450px) {
+  .sideBar {
+    display: none;
+  }
+  .infinite-scroll-component__outerdiv {
+    width: 100% !important;
+  }
+  .post_list_Data {
+    width: 100% !important;
+  }
+  .post_item {
+    width: 100% !important;
+    height: 180px !important;
+  }
+  .picture_post {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .des_post {
+    width: 280px !important;
+    font-size: 11px !important;
+    top: 70px !important;
+  }
+  .title_post {
+    top: 30px !important;
+    font-size: 17px !important;
+  }
+}

@@ -1,0 +1,68 @@
+.container_famous_user {
+    width: 700px;
+    margin: 21px 0px;
+}
+
+.slide_famousUser {
+    width: 180px;
+    height: 250px;
+    border: 0.5px solid #dadada;
+    border-radius: 5px;
+    box-shadow: 0px 1px 20px 2px #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 21px;
+}
+.slide_famousUser > img {
+    border-radius: 50%;
+    margin-top: 15px;
+    width: 60px;
+}
+.id_famous_user {
+    font-size: 15px;
+    color: #777777;
+    margin: 9px 0px;
+}
+
+.slide_famousUser > button {
+    background-color: rgb(64, 149, 203);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: #fff;
+    padding: 11px;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    margin-top: 21px;
+}
+.plus_famous_user {
+    margin-right: 5px
+}
+
+.sliders_famous_User > .swiper-button-prev::after {
+    box-shadow: 1px 1px 14px 0px #a4a3a3;
+}
+.sliders_famous_User > .swiper-button-next::after {
+    box-shadow: 1px 1px 14px 0px #a4a3a3;
+}
+
+.header_famous_user {
+    display: flex;
+    margin: 11px 0px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header_famous_user > span {
+    font-size: 17px;
+    margin-right: 11px;
+}
+.icon_famous_user {
+    color: #222222;
+    font-size: 25px;
+
+}

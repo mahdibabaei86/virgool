@@ -1,0 +1,33 @@
+.header_article {
+  width: 970px;
+  height: 70px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo_header_article {
+  width: 55px;
+}
+.container_left_header_article {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.search_icon {
+  font-size: 20px;
+  color: rgb(87, 87, 87);
+  cursor: pointer;
+}
+.notification_icon {
+  font-size: 23px;
+  color: rgb(87, 87, 87);
+  cursor: pointer;
+}
+.profile_header_article {
+  width: 50px;
+  border-radius: 50%;
+  order: -1;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.btn_new_post {
+    position: fixed;
+    bottom: 21px;
+    right: 31px;
+    background-color: #107ABE;
+    cursor: pointer;
+    padding-top: 5px;
+    width: 170px;
+    font-size: 15px;
+    height: 37px;
+    z-index: 999;
+    color: #fff;
+    border-radius: 30px;
+}

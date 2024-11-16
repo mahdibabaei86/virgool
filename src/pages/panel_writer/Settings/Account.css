@@ -1,0 +1,152 @@
+.container_settings_about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.input_chnage_name {
+  border: 1px solid #2e2e2e;
+  outline: none;
+  border-radius: 3px;
+  padding: 2px 11px;
+  width: 200px;
+  font-size: 15px;
+}
+.container_change_name {
+  display: flex;
+  align-items: center;
+  width: 850px;
+  margin: auto;
+  padding-top: 30px;
+}
+.title_change_name {
+  font-weight: 900;
+  color: #2b2b2b;
+}
+.container_change_name_right {
+  width: 50%;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.container_change_name_left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.container_change_name_left > svg {
+  margin-right: 5px;
+  font-size: 19px;
+}
+
+.container_change_bio {
+  display: flex;
+  align-items: center;
+  width: 850px;
+  margin: auto;
+  padding-top: 30px;
+}
+.container_change_bio_right {
+  width: 50%;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.title_change_bio {
+  font-weight: 900;
+  color: #2b2b2b;
+}
+.subtitle_bio {
+    font-size: 15px;
+    padding-top: 7px;
+}
+.container_change_bio_left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.container_change_bio_left > svg {
+  margin-right: 5px;
+  font-size: 19px;
+}
+
+.profile_pic {
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn_del_profile {
+    color: rgb(221, 0, 0);
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#bio_text {
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid #818181;
+  padding: 11px;
+}
+
+.ant-input-affix-wrapper {
+  width: 200px;
+}
+
+.ant-input {
+  direction: rtl;
+}
+
+.btn_send_data_user {
+  width: 13%;
+  position: absolute;
+  left: 85px;
+  bottom: -70px;
+  font-size: 14px;
+  margin-top: 11px;
+  border-radius: 5px;
+  padding: 9px;
+  background-color: #0E6AA6;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.container_section_account {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 31px;
+  margin-right: 13px;
+  justify-content: space-evenly;
+  padding: 11px 0px;
+}
+.container_input {
+  position: relative;
+  margin: 19px;
+  width: 300px;
+}
+
+.container_input > label {
+  position: absolute;
+  top: -29px;
+  right: 0px;
+}
+.container_input > input {
+  width: 100%;
+  padding: 9px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #2e2e2e;
+  direction: rtl;
+}

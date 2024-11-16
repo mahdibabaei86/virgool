@@ -1,0 +1,66 @@
+.commect_guest {
+  padding: 30px 30px 0px 30px;
+}
+.container_comment_guest {
+  width: 750px;
+  margin: auto;
+  position: relative;
+  padding: 50px 0px;
+}
+.title_comment {
+  position: absolute;
+  right: 10px;
+  z-index: 999;
+  top: 0px;
+  color: rgb(46, 46, 46);
+}
+.container_input_comment_guest {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 65px;
+  position: relative;
+}
+.input_guest {
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 70px;
+  font-size: 17px;
+  width: 70%;
+  padding: 5px 11px;
+  direction: rtl;
+}
+
+.avatar_comment_guest {
+  width: 40px;
+  border-radius: 50%;
+  position: absolute;
+  right: 11px;
+}
+
+@media (max-width: 450px) {
+  .list_comments {
+    width: 100% !important;
+    padding: 11px;
+  }
+  .card_comment {
+    width: 100% !important;
+  }
+  .title_comment {
+    top: -30px !important;
+  }
+  .container_comment_guest {
+    width: 100% !important;
+  }
+  .input_guest {
+    width: 80% !important;
+  }
+  .container_comment_guest {
+    padding: 10px !important;
+  }
+  .commect_guest {
+    padding: 21px !important;
+  }
+}

@@ -1,0 +1,88 @@
+.list_card_posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #a1a1a1;
+  position: relative;
+  width: 900px;
+  padding: 15px 15px 11px 11px;
+}
+.card_post > h2 {
+  order: 1;
+  padding-bottom: 11px;
+  font-size: 19px;
+  color: #313131;
+}
+.card_post > span {
+  position: absolute;
+  bottom: 11px;
+  right: 11px;
+  color: #4e4e4e;
+  font-size: 13px;
+}
+.btns_action_post {
+  display: flex;
+  align-items: center;
+  order: -1;
+  margin-top: 11px;
+}
+.btn_edit_post {
+  background-color: #ffffff;
+  color: #0e6aa6;
+  border: 1px solid #0e6aa6;
+  outline: none;
+  padding: 9px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  order: 1;
+}
+.btn_delete_post {
+  background-color: #0e6aa6;
+  margin-right: 9px;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 9px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.header_posts_panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 10px;
+  width: 90%;
+  margin: auto;
+  border-bottom: 1px solid #a1a1a1;
+}
+.header_posts_panel > h1 {
+  color: #313131;
+  font-size: 21px;
+  order: 1;
+}
+.header_posts_panel > button {
+  border: 1px solid #0e6aa6;
+  color: #0e6aa6;
+  outline: none;
+  padding: 9px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  order: 1;
+  background-color: #fff;
+}
+
+.container_page_panel_posts {
+    margin-top: 50px;
+}

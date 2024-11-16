@@ -1,0 +1,27 @@
+.container_actions_tab_post {
+  width: 80%;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgb(150, 150, 150);
+}
+
+.actions_tab_post {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.actions_tab_post > a {
+  text-decoration: none;
+  padding-bottom: 9px;
+  color: rgb(59, 59, 59);
+}
+.actions_tab_post > a.active {
+  border-bottom: 1px solid rgb(49, 49, 49);
+}
+.Choose_category {
+  cursor: pointer;
+  margin-bottom: 5px;
+}

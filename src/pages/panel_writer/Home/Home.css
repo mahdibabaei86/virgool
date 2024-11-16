@@ -1,0 +1,106 @@
+.container_home {
+  padding: 20px 60px;
+}
+
+.h1_welcome {
+  text-align: right;
+  font-size: 19px;
+  direction: rtl;
+  color: #252525;
+}
+
+.description_welcome {
+  text-align: right;
+  font-size: 15px;
+  color: #252525;
+  direction: rtl;
+}
+
+.container_box_stats_overview {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+}
+.icon_box_count_posts {
+  background-color: rgb(74, 125, 252);
+  box-shadow: 1px 1px 8px 0px rgb(74, 125, 252);
+  width: 50px;
+  padding: 7px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: -20px;
+  top: 15px;
+}
+.icon_box_count_posts > svg {
+  color: #fff;
+  font-size: 37px;
+}
+.box_stats {
+  width: 250px;
+  height: 80px;
+  border: 0.5px solid #dadada;
+  background-color: rgb(236, 236, 236);
+  border-radius: 11px;
+  text-align: right;
+  position: relative;
+}
+.title_box_stats {
+  position: absolute;
+  right: 45px;
+  top: 26px;
+}
+.count_box_stats {
+  position: absolute;
+  left: 30px;
+  top: 28px;
+}
+
+.container_users {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 20px;
+}
+
+.container_list_users_follower,
+.container_list_users_followed {
+  background-color: #ececec;
+  width: 48%;
+  border-radius: 9px;
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  padding-bottom: 11px;
+}
+
+.list_users_follower,
+.list_users_followed {
+  overflow-y: scroll;
+  height: 400px;
+  background-color: #ececec;
+  padding: 21px 21px 11px 21px;
+}
+
+.container_list_users_follower > span {
+  color: #292929;
+  padding: 7px;
+  text-align: right;
+  width: 100%;
+  display: block;
+  padding: 17px 21px 10px 0px;
+
+  border-bottom: 0.5px solid #b3b3b3;
+}
+
+.container_list_users_followed > span {
+  color: #292929;
+  padding: 7px;
+  text-align: right;
+  width: 100%;
+  display: block;
+  padding: 17px 21px 10px 0px;
+  border-bottom: 0.5px solid #b3b3b3;
+}

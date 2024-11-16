@@ -1,0 +1,24 @@
+.card_comment.reply {
+  border: 0.5px solid rgb(221, 221, 221);
+  box-shadow: 1px 1px 9px #f1f1f1;
+  width: 700px;
+  margin-top: 11px;
+  position: relative;
+}
+
+.card_comment.reply::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: rgb(117, 117, 117);
+  position: absolute;
+  right: -5px;
+  top: 80px;
+  border-radius: 50%;
+}
+
+.card_comment.reply > .actions_comment > svg {
+  position: absolute;
+  right: 0px;
+  bottom: -2px;
+}

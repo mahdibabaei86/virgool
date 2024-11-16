@@ -1,0 +1,160 @@
+.container_login_page {
+  display: flex;
+}
+
+.container_right {
+  background-image: linear-gradient(to bottom right, #054592 0, #1897d4);
+  order: 1;
+  width: 60%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_right > img {
+  margin-top: -110px;
+}
+
+.container_right > .list_cn_right {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 21px;
+  left: 7px;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.container_right > .list_cn_right > li {
+  cursor: pointer;
+  color: #ffffffbb;
+}
+
+.copyRight {
+  position: absolute;
+  color: #ffffffbb;
+  right: 21px;
+  bottom: 21px;
+}
+
+.container_left {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.container_left > input {
+  outline: none;
+  border: none;
+  width: 440px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 11px 3px #ebebeb;
+  height: 45px;
+  direction: rtl;
+  padding: 5px 21px;
+  margin-left: 50px;
+}
+
+.title_make_user {
+  color: #1897d4;
+  text-align: right;
+  padding-right: 25px;
+  margin-top: -18px;
+}
+
+.phone_title {
+  color: rgb(65, 65, 65);
+  text-align: right;
+  margin-bottom: 21px;
+  padding-right: 25px;
+}
+
+.btn_cretae_account {
+  background-color: #117bbe;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  cursor: pointer;
+  width: 160px;
+  font-size: 13px;
+  border-radius: 30px;
+  position: absolute;
+  left: 50px;
+  bottom: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn_cretae_account:hover {
+  background-color: #054592;
+}
+
+.row_btn_container_right {
+  font-size: 25px;
+}
+.love_virgool {
+}
+
+.ul_list_container_right {
+  position: absolute;
+  width: 550px;
+  text-align: right;
+  direction: rtl;
+  right: 110px !important;
+  bottom: 190px !important;
+  line-height: 30px;
+  list-style-image: url("../../../images/svgexport-2.svg") !important;
+}
+
+@media (max-width: 450px) {
+  .container_login_page {
+    flex-direction: column !important;
+  }
+  .container_right {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .container_left {
+    width: 100% !important;
+    padding-top: 50px;
+    order: 1;
+  }
+  .love_virgool,
+  .copyRight,
+  .list_cn_right {
+    display: none !important;
+  }
+  .container_right > p {
+    display: none !important;
+  }
+  .container_right > h1 {
+    font-size: 16px;
+    direction: rtl;
+  }
+  .container_right > img {
+    margin-top: 10px !important;
+  }
+  .title_make_user {
+    margin-top: 0px !important;
+  }
+  .container_left > input {
+    margin-left: 30px !important;
+    width: 390px !important;
+  }
+  .btn_cretae_account {
+    left: 30px !important;
+    bottom: -50px !important;
+  }
+}

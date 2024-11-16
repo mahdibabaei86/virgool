@@ -1,0 +1,66 @@
+.card_comment {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 750px;
+  height: auto;
+  padding: 15px;
+}
+.author_comment {
+  display: flex;
+  gap: 11px;
+  justify-content: flex-end;
+}
+.info_comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.avatar_comment {
+  border-radius: 50%;
+  width: 40px;
+  order: 1;
+}
+.name_comment {
+  color: rgb(29, 155, 240);
+  cursor: pointer;
+  font-size: 14px;
+}
+.created_comment {
+  font-size: 14px;
+  color: #4b4b4b;
+}
+.des_comment {
+  color: #3f3f3f;
+  text-align: right;
+}
+
+.actions_comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.icon_reply {
+  color: #8e8e8e;
+  font-size: 21px;
+  cursor: pointer;
+}
+.icon_like {
+  order: 1;
+  font-size: 27px;
+  cursor: pointer;
+  color: #8e8e8e;
+}
+
+.counter_like {
+    position: absolute;
+    right: 33px;
+    bottom: -2px;
+    color: #4b4b4b;
+}
+
+.comments_reply {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}

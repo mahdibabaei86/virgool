@@ -1,0 +1,21 @@
+.btn_follow_user {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 12px;
+  padding: 7px 11px;
+  background: #107abe;
+  width: 95px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  margin-right: 11px;
+}
+.btn_follow_user.follow {
+  background-color: #fff;
+  width: 100px;
+  border: 1px solid #107abe;
+  color: #107abe;
+}

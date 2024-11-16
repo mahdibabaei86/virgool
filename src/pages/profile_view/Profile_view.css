@@ -1,0 +1,97 @@
+.container_info_User {
+  background-color: #fafafa;
+  padding: 50px 0px 30px 0px;
+  border-bottom: 0.5px solid rgb(156, 156, 156);
+}
+.container_info_User > img {
+  border-radius: 50%;
+  width: 90px;
+}
+.name_user_view_profile {
+  font-size: 17px;
+}
+.bio_user_view_profile {
+  color: rgb(77, 77, 77);
+}
+.info_follows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 21px 0px 25px 0px;
+}
+.number_follow {
+  color: #000;
+  font-weight: 900;
+}
+.followers {
+  color: rgb(77, 77, 77);
+  order: 1;
+  margin-left: 30px;
+}
+.following {
+  display: flex;
+  margin-right: 30px;
+  color: rgb(77, 77, 77);
+}
+.num_following {
+  order: 1;
+  padding-left: 7px;
+}
+.btns_action_profile_views {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon_follow_profile_view {
+  margin: 0px 7px 0px 0px !important;
+}
+
+.btn_block_user {
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 11px;
+  background: #107abe;
+  width: 95px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.btn_block_user {
+  font-size: 12px;
+}
+
+.btn_block_user > svg {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.list_post_user_profile {
+  display: flex;
+  margin: 30px 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.span_username {
+  font-weight: 900;
+  padding-left: 7px;
+}
+
+.btn_profile_view_settings {
+  border: 1px solid #4b4b4b;
+  color: #4b4b4b;
+  border-radius: 30px;
+  padding: 5px 11px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.btn_profile_view_settings:hover {
+  background-color: #4b4b4b;
+  color: #ffffff;
+}
